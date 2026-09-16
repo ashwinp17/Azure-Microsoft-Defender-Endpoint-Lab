@@ -34,7 +34,7 @@ The accounts included:
 - Hannah HR
 - Sarah Security
 
-![Microsoft Entra ID Users](Screenshots/01-entra-users.png)
+![Microsoft Entra ID Users](screenshots/01-entra-users.png)
 
 ---
 
@@ -48,7 +48,7 @@ Assigned Azure roles based on each user's job responsibilities:
 
 This demonstrated the principle of least privilege by ensuring users only received the permissions necessary to perform their responsibilities.
 
-![Azure RBAC Role Assignments](Screenshots/02-rbac-role-assignments.png)
+![Azure RBAC Role Assignments](screenshots/02-rbac-role-assignments.png)
 
 ---
 
@@ -58,7 +58,7 @@ Assigned the Security Operator role to the Sarah Security account.
 
 This role allows a security-focused user to work with security events without providing unnecessary administrative permissions.
 
-![Security Operator Role](Screenshots/03-security-operator-role.png)
+![Security Operator Role](screenshots/03-security-operator-role.png)
 
 ---
 
@@ -68,7 +68,7 @@ Deployed a Windows Server virtual machine in Microsoft Azure to act as the endpo
 
 The server was used for Microsoft Defender for Endpoint onboarding, attack simulation, security monitoring, and investigation.
 
-![Azure Windows VM](Screenshots/04-azure-windows-vm.png)
+![Azure Windows VM](screenshots/04-azure-windows-vm.png)
 
 ---
 
@@ -83,7 +83,7 @@ The onboarding status returned:
 - `Sense: Running`
 - `OnboardingState: 1`
 
-![Microsoft Defender Onboarding](Screenshots/05-mde-onboarding.png)
+![Microsoft Defender Onboarding](screenshots/05-mde-onboarding.png)
 
 ---
 
@@ -97,7 +97,7 @@ Command used:
 
 `& "C:\Users\azureuser\Downloads\AttackScript.ps1"`
 
-![PowerShell Attack Simulation](Screenshots/06-attack-script-execution.png)
+![PowerShell Attack Simulation](screenshots/06-attack-script-execution.png)
 
 ### Shellcode Injection Result
 
@@ -105,7 +105,7 @@ After the attack simulation executed, the lab displayed a message indicating tha
 
 This confirmed that the controlled simulation generated suspicious behavior for Microsoft Defender for Endpoint to detect.
 
-![Shellcode Injection Result](Screenshots/09-shellcode-injection-result.png)
+![Shellcode Injection Result](screenshots/09-shellcode-injection-result.png)
 
 ### Attack Technique Analysis
 
@@ -120,7 +120,7 @@ The script demonstrated:
 
 This helped me understand the techniques behind the simulated PowerShell activity instead of only executing the script.
 
-![Attack Technique Analysis](Screenshots/10-attack-technique-analysis.png)
+![Attack Technique Analysis](screenshots/10-attack-technique-analysis.png)
 
 ---
 
@@ -140,7 +140,7 @@ The investigation included reviewing:
 - Parent and child processes
 - Activity associated with the PowerShell simulation
 
-![Microsoft Defender Alert Investigation](Screenshots/07-defender-alert-investigation.png)
+![Microsoft Defender Alert Investigation](screenshots/07-defender-alert-investigation.png)
 
 ---
 
@@ -150,7 +150,7 @@ Used Microsoft Defender Live Response to establish a remote investigation sessio
 
 Live Response provides security analysts with a remote shell that can be used to investigate endpoints, collect information, and perform response actions.
 
-![Microsoft Defender Live Response](Screenshots/08-live-response.png)
+![Microsoft Defender Live Response](screenshots/08-live-response.png)
 
 ---
 
@@ -172,7 +172,7 @@ The results showed multiple failed logon attempts against the `azureuser` accoun
 
 This demonstrated how KQL can be used to identify repeated authentication failures and investigate potentially suspicious login activity.
 
-![KQL Failed Logon Analysis](Screenshots/11-kql-failed-logon-analysis.png)
+![KQL Failed Logon Analysis](screenshots/11-kql-failed-logon-analysis.png)
 
 ---
 
