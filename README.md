@@ -81,7 +81,6 @@ The onboarding status returned:
 ```text
 Sense: Running
 OnboardingState: 1
-
 ```
 
 ![Microsoft Defender Onboarding](screenshots/05-mde-onboarding.png)
