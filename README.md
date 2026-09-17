@@ -189,8 +189,6 @@ This demonstrated how KQL can be used to identify repeated authentication failur
 - Microsoft Entra ID
 - Azure RBAC
 - Identity and Access Management (IAM)
-- Principle of Least Privilege
-- Microsoft Defender Live Response
 
 ---
 
