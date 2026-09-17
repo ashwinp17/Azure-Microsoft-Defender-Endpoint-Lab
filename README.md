@@ -66,7 +66,7 @@ This role allows a security-focused user to work with security events without pr
 
 Deployed a Windows Server virtual machine in Microsoft Azure to act as the endpoint for the security monitoring portion of the lab.
 
-I called the Windows Server virtual machine Windowslabserver
+I named the Windows Server virtual machine Windowslabserver
 
 The server was used for Microsoft Defender for Endpoint onboarding, attack simulation, security monitoring, and investigation.
 
