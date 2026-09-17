@@ -178,26 +178,17 @@ This demonstrated how KQL can be used to identify repeated authentication failur
 
 ## Skills Demonstrated
 
-- Microsoft Defender for Endpoint
 - Endpoint Detection and Response (EDR)
 - Security Alert Investigation
-- SOC Alert Triage
 - Process Tree Analysis
-- PowerShell Analysis
+- The Principle of Least Privilege (PoLP)
 - Kusto Query Language (KQL)
 - Azure Log Analytics
-- Failed Authentication Analysis
 - Microsoft Entra ID
 - Azure RBAC
-- Identity and Access Management
+- Identity and Access Management (IAM)
 - Principle of Least Privilege
-- Azure Virtual Machines
-- Windows Server Administration
-- Remote Desktop Protocol (RDP)
 - Microsoft Defender Live Response
-- Endpoint Onboarding
-- Base64 Analysis
-- XOR Decoding Concepts
 
 ---
 
