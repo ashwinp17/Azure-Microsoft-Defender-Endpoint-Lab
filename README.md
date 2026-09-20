@@ -8,6 +8,30 @@ I created test employee accounts in Microsoft Entra ID, assigned role-based perm
 
 ---
 
+## Skills Demonstrated
+
+- Endpoint Detection and Response (EDR)
+- Security Alert Investigation
+- Process Tree Analysis
+- The Principle of Least Privilege (PoLP)
+- Kusto Query Language (KQL)
+- Azure Log Analytics
+- Microsoft Entra ID
+- Azure RBAC
+- Identity and Access Management (IAM)
+
+---
+
+## What I Learned
+
+This lab gave me hands-on experience with identity security, endpoint detection and response, log analysis, and SOC-style investigation workflows.
+
+I learned how to create users, assign permissions based on least privilege, deploy and monitor a Windows endpoint, verify Microsoft Defender for Endpoint onboarding, generate controlled suspicious activity, review attack techniques, investigate a Defender alert, analyze process activity, use Live Response during an endpoint investigation, and use KQL to investigate failed authentication events.
+
+The SOC investigation workflow demonstrated in this lab was:
+
+**Generate suspicious activity → detect the alert → review the affected endpoint → analyze process activity → determine what triggered the detection → investigate using EDR tools → analyze supporting logs with KQL.**
+
 ## Technologies Used
 
 - Microsoft Azure
@@ -177,33 +201,3 @@ This demonstrated how KQL can be used to identify repeated authentication failur
 ![KQL Failed Logon Analysis](screenshots/11-kql-failed-logon-analysis.png)
 
 ---
-
-## Skills Demonstrated
-
-- Endpoint Detection and Response (EDR)
-- Security Alert Investigation
-- Process Tree Analysis
-- The Principle of Least Privilege (PoLP)
-- Kusto Query Language (KQL)
-- Azure Log Analytics
-- Microsoft Entra ID
-- Azure RBAC
-- Identity and Access Management (IAM)
-
----
-
-## What I Learned
-
-This lab gave me hands-on experience with identity security, endpoint detection and response, log analysis, and SOC-style investigation workflows.
-
-I learned how to create users, assign permissions based on least privilege, deploy and monitor a Windows endpoint, verify Microsoft Defender for Endpoint onboarding, generate controlled suspicious activity, review attack techniques, investigate a Defender alert, analyze process activity, use Live Response during an endpoint investigation, and use KQL to investigate failed authentication events.
-
-The SOC investigation workflow demonstrated in this lab was:
-
-**Generate suspicious activity → detect the alert → review the affected endpoint → analyze process activity → determine what triggered the detection → investigate using EDR tools → analyze supporting logs with KQL.**
-
----
-
-## Disclaimer
-
-This project was completed in a controlled educational lab environment. All attack simulation and security testing was performed on systems that I created and was authorized to use.
